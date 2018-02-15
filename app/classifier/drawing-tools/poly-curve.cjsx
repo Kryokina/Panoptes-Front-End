@@ -43,7 +43,7 @@ module.exports = createReactClass
 
     forceComplete: (mark) ->
       mark.closed = true
-      mark.auto_closed = true
+      mark.auto_closed = false
 
     toLineFrame: (start, end, control) ->
       # Move the contorl point to a local frame
